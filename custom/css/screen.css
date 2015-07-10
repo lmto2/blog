@@ -9,7 +9,7 @@ a img:hover {background:none; border:none;}
 a {color:#07b; text-decoration:none;}
 a:hover {text-decoration:underline;}
 #menu ol,ul {list-style:none;}
-p {margin-bottom:20px;}
+p {margin-bottom:10px;}
 input,textarea,button {outline:none;}
 input[type^="text"],input[type^="password"],textarea {box-shadow:inset 2px 3px 5px #eee; border:1px solid #bbb; background:#fafafa;}
 input:focus,textarea:focus {background:#fff; border-color:#999;}
