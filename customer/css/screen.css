@@ -1,6 +1,6 @@
 body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea {margin: 0; padding: 0;}
 header,footer,article,section,nav,menu {display:block;}
-body {font-family:"Hiragino Sans GB","Microsoft Yahei",Tahoma, Helvetica, Arial, "SimSun", sans-serif; line-height:1.6; background:#1a1a1a url(/custom/photos/bg.png) repeat;}
+body {font-family:"Hiragino Sans GB","Microsoft Yahei",Tahoma, Helvetica, Arial, "SimSun", sans-serif; line-height:1.6; background:#1a1a1a url(/blog/custom/photos/bg.png) repeat;}
 h1,h2,h3 {font-weight:400;}
 h1,h2 {font-size:24px;}
 h3 {font-size:14px;}
@@ -9,5 +9,11 @@ a img:hover {background:none; border:none;}
 a {color:#07b; text-decoration:none;}
 a:hover {text-decoration:underline;}
 
-#wrap{background:#fcfbf7 url(/custom/photos/mainbg.jpg) repeat; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1); width:800px; margin:30px auto; padding:40px 50px;margin-top: 10px;}
+#wrap{background:#fcfbf7 url(/blog/custom/photos/mainbg.jpg) repeat; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1); width:800px; margin:30px auto; padding:40px 50px;margin-top: 10px;}
 #content {overflow:hidden; color:#555; text-shadow:1px 1px #fff; margin-top:30px; clear:both;}
+
+#logo {text-align: left;}
+#logo a {color:#ddd;}
+#sublogo {text-align: left;}
+#header h2 {font-size:14px;}
+
