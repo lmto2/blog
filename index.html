@@ -6,12 +6,10 @@ title: 东湖博客
 <p>最新文章</p>
 <ul>
 {% 
-i=0
 for post in site.posts 
-i=i+1
 %}
 <li>
-{{i}}.<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
 </a>
 {{ post.date | date_to_string }} 
 </li>
