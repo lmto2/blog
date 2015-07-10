@@ -5,7 +5,15 @@ title: 东湖博客
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
 <ul>
-{% for post in site.posts %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% 
+i=0
+for post in site.posts 
+i=i+1
+%}
+<li>
+{{i}}.<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+</a>
+{{ post.date | date_to_string }} 
+</li>
 {% endfor %}
 </ul>
