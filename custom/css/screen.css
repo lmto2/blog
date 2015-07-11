@@ -1,6 +1,6 @@
 body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea {margin: 0; padding: 0;}
 header,footer,article,section,nav,menu {display:block;}
-body {font-family:"Hiragino Sans GB","Microsoft Yahei",Tahoma, Helvetica, Arial, "SimSun", sans-serif; line-height:1.6; background:#1a1a1a url(/blog/custom/photos/bg.png) repeat;}
+body {font-family:"Hiragino Sans GB","Microsoft Yahei",Tahoma, Helvetica, Arial, "SimSun", sans-serif; line-height:1.6; background:#1a1a1a url(/custom/photos/bg.png) repeat;}
 h1,h2,h3 {font-weight:400;}
 h1,h2 {font-size:24px;}
 h3 {font-size:14px;}
@@ -16,7 +16,7 @@ input {vertical-align:middle;}
 input[type^="radio"] {border:none; background:none; width:auto;}
 ::selection {color:#fff; background:#444; text-shadow:none;}
 
-#wrap,#footer_box {background:#fcfbf7 url(/blog/custom/photos/mainbg.jpg) repeat; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1); width:800px; margin:30px auto; padding:10px 10px;margin-top: 10px;}
+#wrap,#footer_box {background:#fcfbf7 url(/custom/photos/mainbg.jpg) repeat; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1); width:800px; margin:30px auto; padding:10px 10px;margin-top: 10px;}
 #content {overflow:hidden; color:#555; text-shadow:1px 1px #fff; margin-top:0px; clear:both;}
 #desc {overflow:hidden; color:#555; text-shadow:1px 1px #fff; margin-top:30px; clear:both;text-overflow:ellipsis;height: 350px;}
 #header {color:#5d6673;text-align: center;width: 800px;margin:10px auto;}
@@ -28,11 +28,11 @@ input[type^="radio"] {border:none; background:none; width:auto;}
 #searchFrom {background:#fafafa; border:1px solid #ccc; border-radius:15px; box-shadow:inset 1px 1px 5px rgba(100,100,100,.3); padding:3px 5px; height:16px; float:right;}
 #searchFrom label {display:none;}
 #searchFrom input {border:none; background:none; box-shadow:none; width:150px; height:16px; line-height:16px; vertical-align:top;}
-#searchFrom button {background:url(/blog/custom/photos/search.png) no-repeat; width:16px; height:16px; text-indent:-999px; vertical-align:top; border:none; cursor:pointer; margin-left:-5px; font-size:0;}
-#searchFrom button:hover {background:url(/blog/custom/photos/ssearch_hover.png) no-repeat;}
+#searchFrom button {background:url(/custom/photos/search.png) no-repeat; width:16px; height:16px; text-indent:-999px; vertical-align:top; border:none; cursor:pointer; margin-left:-5px; font-size:0;}
+#searchFrom button:hover {background:url(/custom/photos/ssearch_hover.png) no-repeat;}
 
 #rss {float:right; margin-left:8px; margin-top:4px;}
-#rss a {background:url(/blog/custom/photos/rss.png) no-repeat; width:16px; height:16px; overflow:hidden;display:block; text-indent:-999px;}
+#rss a {background:url(/custom/photos/rss.png) no-repeat; width:16px; height:16px; overflow:hidden;display:block; text-indent:-999px;}
 #menu {float:left; font-size:15px; line-height:30px; height:22px; overflow:hidden;}
 #menu li {float:left; margin-right:10px;}
 #menu a {display:block; text-decoration:none; color:#999;}
